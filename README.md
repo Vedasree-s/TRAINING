@@ -19,7 +19,7 @@
 
        DISPLAY "Enter the third number: ".
        ACCEPT NUM3.
-
+#finding largest number
        IF NUM1 > NUM2 AND NUM1 > NUM3
            MOVE NUM1 TO GREATEST
        ELSE IF NUM2 > NUM1 AND NUM2 > NUM3
